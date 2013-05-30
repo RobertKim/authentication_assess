@@ -7,6 +7,7 @@
    
 
   <% if current_user %>
+    <span><a href='/sessions/<%= @current_user.id %>'>Sign Out</a></span>
     <h3>
       Below are all users:
     </h3>
